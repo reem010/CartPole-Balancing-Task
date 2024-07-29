@@ -40,16 +40,4 @@ Each algorithm aims to learn a policy that maximizes the cumulative reward in th
 - `matplotlib` for plotting results.
 - `pickle` for saving and loading Q-tables.
 
-You can install the required packages using pip:
 
-```bash
-pip install gym numpy matplotlib
-
-**3. ** SARSA:
-
-Update Mechanism: Uses the SARSA (State-Action-Reward-State-Action) algorithm.
-Update: Updates the Q-table based on the current and next state-action pairs and the immediate reward.
-Action Selection: Epsilon-greedy policy with epsilon decay.
-Selection: Randomly chooses actions or selects the action with the highest Q-value for exploitation.
-Summary
-Each algorithm aims to learn a policy that maximizes the cumulative reward in the CartPole-v1 environment through iterative training episodes. They differ in how they update their Q-tables and select actions, providing insights into the trade-offs between exploration and exploitation in reinforcement learning.
