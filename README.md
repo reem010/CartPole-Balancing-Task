@@ -11,21 +11,18 @@ This project focuses on training reinforcement learning agents using different a
 - **Update Mechanism**: Uses Off-Policy Monte Carlo learning.
 - **Update**: Updates the Q-table based on the discounted sum of rewards (G) obtained during an episode.
 - **Action Selection**: Epsilon-greedy policy with epsilon decay.
-  - **Selection**: Chooses actions either randomly (exploration) or based on Q-values (exploitation).
 
 ### 2. Q-Learning
 
 - **Update Mechanism**: Uses the Q-learning algorithm.
 - **Update**: Updates the Q-table using the Q-learning formula, incorporating the maximum Q-value of the next state-action pair.
 - **Action Selection**: Epsilon-greedy policy with epsilon decay.
-  - **Selection**: Randomly samples actions or selects the action with the highest Q-value for exploitation.
 
 ### 3. SARSA
 
 - **Update Mechanism**: Uses the SARSA (State-Action-Reward-State-Action) algorithm.
 - **Update**: Updates the Q-table based on the current and next state-action pairs and the immediate reward.
 - **Action Selection**: Epsilon-greedy policy with epsilon decay.
-  - **Selection**: Randomly chooses actions or selects the action with the highest Q-value for exploitation.
 
 ## Summary
 
