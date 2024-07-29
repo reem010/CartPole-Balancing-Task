@@ -1,7 +1,5 @@
 # CartPole-Balancing-Task
 
-# CartPole Reinforcement Learning Project
-
 ## Project Description
 
 This project focuses on training reinforcement learning agents using different algorithms to solve the CartPole-v1 environment from OpenAI's Gym. The goal is to balance a pole on a moving cart for as long as possible by controlling the cart's movements.
